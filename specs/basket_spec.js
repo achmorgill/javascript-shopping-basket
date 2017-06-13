@@ -5,6 +5,10 @@ var Item = require ("../item.js");
 describe('Basket', function() {
 
   var basket;
+  var item;
+  var item2;
+  var item3;
+  
 
   beforeEach(function() {
     item = new Item("Beans", 20, false, 3);

@@ -5,6 +5,7 @@ var Basket = function(){
 }
 
 Basket.prototype = {
+  
   noOfItems: function(){
     return this.basket.length;
   },
